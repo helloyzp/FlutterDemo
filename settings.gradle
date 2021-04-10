@@ -2,8 +2,8 @@ rootProject.name = "FlutterDemo"
 include ':app'
 
 // 加入下面配置
-//include ':flutter_module'
-include ':flutter'
+include ':flutter_module'
+//include ':flutter'
 setBinding(new Binding([gradle:this]))
 evaluate(new File(
         settingsDir,
