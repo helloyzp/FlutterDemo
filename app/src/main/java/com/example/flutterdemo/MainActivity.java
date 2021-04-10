@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * 跳转到flutter页面
      *
-     * 跳转原理其实也是Activity之间的跳转，也是需要创建一个Activity来承载flutter的视图页面，这个Activity也需要注册到AndroidManifest.xml中，
+     * 跳转原理其实也是Activity之间的跳转，也是需要创建一个Activity来承载flutter的视图页面，这个Activity也需要注册到AndroidManifest.xml中；
      * 但是也可以使用flutter sdk里自带的FlutterActivity，这样就不需要手动创建一个新的Activity了，但是FlutterActivity同样也需要注册到AndroidManifest.xml中。
      */
     public void gotoFlutterPage() {

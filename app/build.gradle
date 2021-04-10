@@ -41,7 +41,7 @@ dependencies {
 
 
     //implementation project(':flutter_module')
-    implementation project(':flutter')
+    implementation project(':flutter') //注意这里不是 ` implementation project(':flutter_module')`，而是`implementation project(':flutter')`
 
 
 }
