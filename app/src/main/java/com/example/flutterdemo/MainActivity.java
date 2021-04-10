@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * 跳转方式1：
-     * 普通的跳转方式，会有问题：加载flutter页面的时候会白屏，并且加载比较缓慢
+     * 普通的跳转方式，会有问题：加载flutter页面时会白屏，并且加载比较缓慢
      */
     public void gotoFlutterPage1() {
         Intent intent = FlutterActivity.createDefaultIntent(this);
